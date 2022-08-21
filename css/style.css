@@ -1,0 +1,47 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+
+
+}
+/*   Variables  */
+:root{
+    --main-color:  #FA5353 ;
+    /* second color choice */
+    /* --main color: #0D81EC ; */
+    --dark-color:  #1B182B;
+    --light-color: #322F40;
+    --text-color:  hsl(0, 0%, 91%);
+}
+::selection{
+    color: var(--text-color);
+    background: var(--main-color);
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+    background: var(--dark-color);
+}
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--dark-color);
+    z-index: 100;
+}
