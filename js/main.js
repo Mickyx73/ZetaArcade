@@ -15,3 +15,5 @@ document.querySelector('#bell-icon').onclick = () =>{
 
     bell.classList.toggle('active');
 }
+
+//swiper
