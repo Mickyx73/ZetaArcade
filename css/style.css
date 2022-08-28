@@ -348,6 +348,12 @@ section{
 .box-btn .bx:hover{
     background: var(--dark-color);
 }
+/* new games section*/
+.new-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.2rem;
+}
 
 
 
