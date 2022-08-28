@@ -33,7 +33,7 @@ var swiper = new Swiper(".trending-content", {
         slidesPerView: 3,
         spaceBetween: 15,
       },
-      1024: {
+      1068: {
         slidesPerView: 5,
         spaceBetween: 20,
       },
